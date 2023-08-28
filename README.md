@@ -1,0 +1,2 @@
+# CNN_Implementation_on_hardware_accelerator_for_hand_gesture_recognition
+Embedded AI CNN implementation project on the MAX78000 feather board for hand gesture recognition
