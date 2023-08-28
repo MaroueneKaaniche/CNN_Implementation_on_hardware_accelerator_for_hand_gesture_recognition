@@ -1,3 +1,0 @@
-#!/bin/sh
-
-./ai8xize.py --device MAX78000 --test-dir sdk-tensorflow --checkpoint-file /home/maroueneubuntu/Desktop/NewMaxProject/Gesture-recognition-training/TensorFlow/export/customdataloader_tf/saved_model.onnx --config-file /home/maroueneubuntu/Desktop/NewMaxProject/Gesture-recognition-synthesis/networks/custom.yaml --sample-input /home/maroueneubuntu/Desktop/NewMaxProject/Gesture-recognition-training/TensorFlow/export/customdataloader_tf/sampledata.npy --prefix tf-custom --softmax -v --top-level cnn --display-checkpoint --generate-dequantized-onnx-file --scale 0.93 --embedded-code --compact-data --mexpress --energy --overwrite
